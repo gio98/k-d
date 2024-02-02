@@ -1,0 +1,76 @@
+header {
+  width: 37.5em;
+  margin: 2em auto;
+}
+
+.logo {
+  background: url(https://s.cdpn.io/7635/averyson-logo.gif) no-repeat;
+  background-size: 100%;
+  float: left;
+  width: 90%;
+  height: 30em;
+  font-family: Baskerville;
+  color: #575557;
+  position: relative;
+  top: 107px;
+}
+
+.david, .kelly, .ampersand {
+  font-size: 5em;
+  text-align: center;
+}
+
+.david {
+  position: absolute;
+  top: 63px;
+  left: 225px;
+}
+
+.kelly {
+  position: absolute;
+  top: 134px;
+  left: 335px;
+}
+
+.ampersand {
+  font-style: italic;
+  position: absolute;
+  top: 103px;
+  left: 270px;
+}
+
+date {
+  border-top: 1px solid #575557;
+  border-bottom: 1px solid #575557;
+  position: absolute;
+  top: 215px;
+  left: 260px;
+}
+
+.btn1 {
+  position: absolute !important;
+  top: 250px;
+  left: 237px;
+}
+
+
+.ig2 {position: relative; left: -123px !important;}
+
+@media (orientation: portrait) {
+  body {
+    background-image: url(sfondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 654px !important;
+  }
+  .ig2{
+    left: 20px !important;
+  }
+}
+
+@media  (orientation: landscape ) and (max-width: 1000px) {
+  body {
+    background-image: url(sfondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 654px !important;
+  }
+}
